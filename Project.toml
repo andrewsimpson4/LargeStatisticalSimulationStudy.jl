@@ -3,7 +3,15 @@ uuid = "22b29e9b-97e2-48d9-baab-6c2040e9b618"
 authors = ["Andrew Simpson"]
 version = "1.0.0-DEV"
 
+[deps]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+TexTables = "ebf5ac4f-3ec1-555f-9ac9-3d72ed88c471"
+
 [compat]
+FileIO = "1.17.0"
+JLD2 = "0.5.15"
+TexTables = "0.3.0"
 julia = "1.6.7"
 
 [extras]
